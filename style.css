@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url('../images/concrete_seamless.png');
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQknUsOUEa4UOzrsG2IOiMM5UXnsweTSNJp9MZAIHENOIfzESil&usqp=CAU');
     font-size: 18px;
     line-height: 34px;  
     font-family: Arial, Helvetica, sans-serif;
@@ -75,7 +75,7 @@ nav {
 }
 
 nav a {
-    color: rgb(97, 197, 228);
+    color:blue;
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
