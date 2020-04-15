@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="reset.css">   
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
     <header id="masthead">
@@ -18,39 +20,51 @@
     </header>
     
     <div id="main-container" class="container">   
-        <section class="main-container">
+        <section class="main-container container">
             <h1>Portfolio</h1>
 
-            <div class="work">
-                <img src="Hangman.jpg" 
-                class="auth-image" alt="hangman" height="240" width="240">
-                <h3>Hangman</h3>
-            </div>
+            <div class="work row">
+                <div class="col">
+                    <img src="Hangman.jpg" 
+                    class="auth-image" alt="hangman" height="240" width="240">
+                    <h3>Hangman</h3>  
+                </div>
+                
+                <div class="col">
+                    <img src="RPG Game.jpg" 
+                    class="auth-image" alt="RPG Game" height="240" width="240">
+                    <h3>RPG Game</h3>  
+                </div>
 
-            <div class="work">
-                <img src="RPG Game.jpg" 
-                class="auth-image" alt="RPG Game" height="240" width="240">
-                <h3>RPG Game</h3>
-            </div>
-
-            <div class="work">
-                <img src="Trivia Game.jpg" 
+                <div class="col">
+                    <img src="Trivia Game.jpg" 
                 class="auth-image" alt="Trivia Game" height="240" width="240">
                 <h3>Trivia Game</h3>
-            </div>
+                </div>
 
-            <div class="work">
-                <img src="Rutgers Info Game.jpg" 
+                               
+            </div>
+            <hr/>
+            <div class="work row">
+                <div class="col-4">
+                    <img src="Rutgers Info Game.jpg" 
                 class="auth-image" alt="Rutgers Info Widget" height="240" width="240">
                 <h3>Rutgers Info Game</h3>
-            </div>
 
-            <div class="work">
-                <img src="Rock Paper Sciccors.jpg" 
+                </div>
+
+                <div class="col-4">
+                    <img src="Rock Paper Sciccors.jpg" 
                 class="auth-image" alt="Rock Paper Sciccors" height="240" width="240">
                 <h3>Rock Paper Sciccors</h3>
-            </div>
+                </div>
 
+            </div>
+            
+            
+          
+
+            
         </section>
 
         <section class="sidebar">
